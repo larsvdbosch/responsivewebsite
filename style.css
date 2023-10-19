@@ -1,0 +1,479 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+
+    font-family: 'Montserrat', sans-serif;
+        position: sticky;
+        top: 0;
+        background: aliceblue;
+}
+
+
+#row-1 {
+
+    width: 33%;
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    gap: 40px;
+
+
+}
+
+#row-2 {
+
+    font-family: 'Yeseva One', cursive;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+#row-3 {
+
+    width: 33%;
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+    gap: 40px;
+
+    
+}
+
+#navbar-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar-content a{
+
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#row-1 h1{
+
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+}
+
+#row-2 h1{
+
+    font-size: 42px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+#row-3 h1{
+
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+}
+
+#section-1 {
+
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teddy-photo img{
+
+    width: auto;
+    height: 800px;
+}
+
+#section-2 {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#white-bar h1{
+
+    color: black;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+#white-bar p{
+
+    color: black;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#white-bar a{
+
+    color: black;
+    text-decoration: none;
+}
+
+#section-3 {
+
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blurry-photo img{
+
+    width: auto;
+    height: 800px;
+}
+
+#logo {
+
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+}
+
+#blurry-photo h1 {
+
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    }
+
+#blurry-photo a {
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#footer {
+
+    display: flex;
+    background-color: black;
+    height: 400px;
+    border-bottom: 0.5px solid white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer-content {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#side-1 {
+
+    width: 25%;
+    display: flex;
+    color: white;
+    justify-content: left;
+    align-items: center;
+    margin-left: 60px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#side-2 {
+
+    width: 25%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#side-3 {
+
+    width: 25%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#side-4 {
+
+    width: 25%;
+    display: flex;
+    color: white;
+    justify-content: right;
+    align-items: center;
+    margin-right: 60px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#section-4 {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#last-info {
+
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer-content a {
+
+    color: white;
+    text-decoration: none;
+}
+
+#footer-content h1 {
+
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#footer-content h2{
+
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media screen and (max-width: 844px) {
+
+    #section-1 {
+
+        height: 800px;
+    }
+
+    #section-3 {
+
+        height: 800px;
+    }
+
+    #section-4 {
+
+        height: 800px;
+    }
+    
+    #teddy-photo img{
+
+        width: auto;
+        height: 400px;
+    }
+
+    #row-1 {
+
+        width: 33%;
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+        gap: 10px;
+    
+    }
+
+    #row-3 {
+
+        width: 33%;
+        display: flex;
+        justify-content: right;
+        margin-right: 20px;
+        gap: 10px;
+    
+    }
+
+    #row-1 h1{
+
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+    }
+    
+    #row-3 h1{
+    
+        font-size: 12px;
+        font-weight: 300;
+        color: white;
+    }
+
+    #section-2 {
+
+        height: 100px;
+    }
+
+    #white-bar p{
+
+        font-size: 12px;
+    }
+
+    #blurry-photo img{
+
+        width: auto;
+        height: 300px;
+    }
+
+    #blurry-photo {
+
+        text-align: center;
+    }
+
+    #blurry-photo h1 {
+
+        font-size: 12px;
+    }
+    
+
+    #footer-content h1 {
+
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    #footer-content h2{
+    
+        font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+
+    #footer-content {
+
+        align-items: center;
+        text-align: center;
+    }
+
+    #side-1 {
+
+        width: 50%;
+        display: flex;
+        color: white;
+        justify-content: left;
+        align-items: center;
+        margin-left: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    #side-2 {
+    
+        width: 50%;
+        display: flex;
+        color: white;
+        justify-content: right;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    #side-3 {
+    
+        width: 50%;
+        display: flex;
+        color: white;
+        justify-content: left;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    #side-4 {
+    
+        width: 50%;
+        display: flex;
+        color: white;
+        justify-content: right;
+        align-items: center;
+        margin-right: 10px;
+        gap: 10px;
+        flex-direction: column;
+    }
+    
+    #footer {
+    
+        height: 600px;
+    }
+
+    #navbar {
+
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 1180px) {
+
+    #teddy-photo img{
+
+        width: auto;
+        height: 600px;
+    }
+
+    #row-1 h1{
+
+        font-size: 21px;
+        font-weight: 300;
+        color: white;
+    }
+    
+    #row-3 h1{
+    
+        font-size: 21px;
+        font-weight: 300;
+        color: white;
+    }
+
+}
+
+
